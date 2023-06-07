@@ -6,16 +6,34 @@
 - We designed its structure to intuitively extend to additional modalities while achieving a low training cost through a partial update of hypernetworks.
 
 <p align="center">
-<img width="1369" alt="teaser" src="https://github.com/sungnyun/diffblender/assets/46050900/6380e3dd-c075-4ba1-ba75-0f66216d5f2d">
+<img width="1369" alt="teaser" src="./assets/fig1.png">
 </p>
 
 ## To-Dos
 
 - [x] Project page is open: [link](https://sungnyun.github.io/diffblender/)
-- [ ] Release model checkpoint
-- [ ] Release test code
-- [ ] Release training code
+- [x] DiffBlender model: code & checkpoint
+- [x] Release inference code
+- [ ] Release training code & pipeline
 - [ ] Gradio UI
+
+## Requirements
+Install the necessary packages with:
+```sh
+$ pip install -r requirements.txt
+```
+
+Download DiffBlender model checkpoint from this [link](https://www.dropbox.com/s/vnjribkwx3xcwm6/checkpoint_latest.pth?dl=0), and place it under `./diffblender_checkpoints/`.    
+Also, prepare the SD model from this [link](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) (we used CompVis/sd-v1-4.ckpt).
+
+## Inference
+```sh
+$ python inference.py --ckpt_path=./diffblender_checkpoints/{CKPT_NAME}.pth \
+                      --official_ckpt_path=/path/to/sd-v1-4.ckpt \
+                      --save_name={SAVE_NAME} 
+```
+
+Results will be saved under `./inference/{SAVE_NAME}/`, in the format as {conditions + generated image}.
 
 
 
