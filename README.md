@@ -1,5 +1,5 @@
 # DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models 🔥
-[Sungnyun Kim](https://bit.ly/sungnyunkim)\*, [Junsoo Lee](https://ssuhan.github.io)\*, [Kibeom Hong](https://github.com/Kibeom-Hong), [Daesik Kim](https://scholar.google.com/citations?user=YUcWWbEAAAAJ&hl=en), [Namhyuk Ahn](https://nmhkahn.github.io)   (\*equal contribution)
+[Sungnyun Kim](https://bit.ly/sungnyunkim), [Junsoo Lee](https://ssuhan.github.io), [Kibeom Hong](https://github.com/Kibeom-Hong), [Daesik Kim](https://scholar.google.com/citations?user=YUcWWbEAAAAJ&hl=en), [Namhyuk Ahn](https://nmhkahn.github.io)    
 
 [[Project Page](https://sungnyun.github.io/diffblender/)] [[arXiv](https://arxiv.org/pdf/2305.15194.pdf)] [[BibTeX](#bibtex)] 
 
