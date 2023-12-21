@@ -1,10 +1,11 @@
 # DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models 🔥
-[Sungnyun Kim](https://bit.ly/sungnyunkim), [Junsoo Lee](https://ssuhan.github.io), [Kibeom Hong](https://github.com/Kibeom-Hong), [Daesik Kim](https://scholar.google.com/citations?user=YUcWWbEAAAAJ&hl=en), [Namhyuk Ahn](https://nmhkahn.github.io)    
 
-[[Project Page](https://sungnyun.github.io/diffblender/)] [[arXiv](https://arxiv.org/pdf/2305.15194.pdf)] [[BibTeX](#bibtex)] 
+<a href='https://sungnyun.github.io/diffblender/'><img src='https://img.shields.io/badge/Project-Page-yellow'></a>
+<a href='https://arxiv.org/abs/2305.15194'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href=#bibtex><img src='https://img.shields.io/badge/Paper-BibTex-Green'></a> 
+<a href='https://huggingface.co/sungnyun/diffblender'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DiffBlender_Model-blue'></a>
 
 
-- **DiffBlender** successfully synthesizes complex combinations of input modalities. It enables flexible manipulation of conditions, providing the customized generation aligned with user preferences 
+- **DiffBlender** successfully synthesizes complex combinations of input modalities. It enables flexible manipulation of conditions, providing the customized generation aligned with user preferences. 
 - We designed its structure to intuitively extend to additional modalities while achieving a low training cost through a partial update of hypernetworks. 
 
 <p align="center">
@@ -25,7 +26,7 @@ Install the necessary packages with:
 $ pip install -r requirements.txt
 ```
 
-Download DiffBlender model checkpoint from this [link](https://www.dropbox.com/s/vnjribkwx3xcwm6/checkpoint_latest.pth?dl=0), and place it under `./diffblender_checkpoints/`.    
+Download DiffBlender model checkpoint from this [Huggingface model](https://huggingface.co/sungnyun/diffblender), and place it under `./diffblender_checkpoints/`.    
 Also, prepare the SD model from this [link](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) (we used CompVis/sd-v1-4.ckpt).
 
 ## ⚡️ Try Multimodal T2I Generation with DiffBlender
